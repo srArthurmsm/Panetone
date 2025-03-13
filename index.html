@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js" defer></script>
     <title>Panettone Salgado</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -11,24 +12,23 @@
         <div class="frame-3">
           <img
             class="flux-dev-a-minimalist-logo-design-for-a-panettone-company-feat-3-1-removebg-preview-1"
-            src="flux-dev-a-minimalist-logo-design-for-a-panettone-company-feat-3-1-removebg-preview-10.png"
+            src="./img/panettone.png"
           />
-          <div class="panettone"><img src="/assets/panettone.png" alt=""></div>
+          <div class="panettone"><img src="/img/panettone.png" alt=""></div>
           <div class="salgado">PANETTONE SALGADO</div>
         </div>
         <div class="raio-do-panetone">Raio do panetone:</div>
         
-        <button class="calcular-1">Calcular</button>
         <div class="altura-do-panetone">Altura do panetone:</div>
-          <input type="number" class="frame-5">
-    
-          <input type="number" class="frame-6">
-          <section class="frame-7">
-            <div class="resposta">
+          <input type="number" class="frame-5" id="raio">
+          <input type="number" class="frame-6" id="altura">
+        
+        <section class="frame-7">
+            <div class="resposta" id="res">
                 
-              </div>
-          </section>
-          
+            </div>
+         </section>
+          <button onclick="car()" class="calcular-1">Calcular</button>
       </div>
       
 </body>
