@@ -5,7 +5,6 @@ export default class Panetone {
         this.altura = altura
 
     }
-    densidade = 0.7
     calcularVolume(){
         return Math.PI * this.raio * this.raio * this.altura;
     }
