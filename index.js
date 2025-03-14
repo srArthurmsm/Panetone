@@ -26,7 +26,7 @@ function car(){
     preçosal = quantidadesal * 0.004
 
     quantidadeovo = Math.ceil(massa / 56)
-    preçoovo = quantidadeovo * 1,4
+    preçoovo = quantidadeovo * 1.4
     
     res.innerHTML = "Volume = " + volume + " <br> Massa = " + (densidade * volume).toFixed(2) + " <br> preço ovo =  $" + preçoovo.toFixed(2) + " <br> farinha = $" + preçofarinha.toFixed(2) + " <br> Manteiga = $" + preçomanteiga.toFixed(2) + " <br> Sache de Legumes = $" + preçolegumes.toFixed(2)+ " <br> oleo de oliva = $" + preçooliva.toFixed(2) + " <br> sal = $" + preçosal.toFixed(2)
 }
