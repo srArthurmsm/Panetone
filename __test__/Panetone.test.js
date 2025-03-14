@@ -39,7 +39,7 @@ describe("Testes da classe Panetone", ()=>{
         const quantidadesal = massa * 0.004
         const preçosal = quantidadesal * 0.004
 
-        const quantidadeovo = Math.ceil(massa / 56)
+        const quantidadeovo = Math.ceil(massa * 0.14)
         const preçoovo = quantidadeovo * 1.4
 
         const panetone = new Panetone(massa, preçofarinha, preçolegumes, preçomanteiga, preçooliva, preçoovo, preçosal, quantidadefarinha, quantidadelegumes, quantidademanteiga, quantidadeoliva, quantidadeovo, quantidadesal)
