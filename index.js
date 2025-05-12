@@ -28,5 +28,5 @@ function car(){
     quantidadeOvo = Math.ceil(massa * 0.14)
     precoOvo = quantidadeOvo * 1.4
     
-    res.innerHTML = "Volume = " + volume + " <br> Massa = ", (massa).toFixed(2) + " <br> preço ovo =  $" + precoOvo.toFixed(2) + " <br> farinha = $" + precoFarinha.toFixed(2) + " <br> Manteiga = $" + precoManteiga.toFixed(2) + " <br> Sache de Legumes = $" + precoLegumes.toFixed(2)+ " <br> oleo de oliva = $" + precoOliva.toFixed(2) + " <br> sal = $" + precoSal.toFixed(2)
+    res.innerHTML = "Volume = " + volume + " <br> Massa = " + (massa) + " <br> preço ovo =  $" + precoOvo.toFixed(2) + " <br> farinha = $" + precoFarinha.toFixed(2) + " <br> Manteiga = $" + precoManteiga.toFixed(2) + " <br> Sache de Legumes = $" + precoLegumes.toFixed(2)+ " <br> oleo de oliva = $" + precoOliva.toFixed(2) + " <br> sal = $" + precoSal.toFixed(2)
 }
